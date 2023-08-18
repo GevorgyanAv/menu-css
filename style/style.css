@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 100%;
+    height: 100Vh;
+    background: transparent;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background: green;
+}
+
+.ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.li {
+    color: white;
+    list-style-type: none;
+    font-size: 18px;
+    position: relative;
+    transition: all ease .5s;
+}
+
+.li:hover {
+    background-color: lime;
+    border-radius: 5%;
+    border: 10px solid lime;
+
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    background: url("/menu/3.jpg");
+    background-position: center;
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+}
+
+.ul1 {
+    width: 220%;
+    height: 200%;
+    position: absolute;
+    top: 200%;
+}
+
+.li1 {
+    display: none;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    transition: all ease .5s;
+}
+
+.li:hover .li1 {
+    display: block;
+    background: green;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.a1 {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.ul2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 90%;
+    top: 10%;
+    display: none;
+}
+
+.li2 {
+    list-style-type: none;
+    background-color: green;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+.li1:hover .ul2 {
+    display: block;
+}
+
+.a2 {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left:30px;
+}
+
+.but {
+    border: none;
+    color: white;
+    background: green;
+}
+
+input:focus {
+    outline: 1px solid green;
+}
+
+.input-div {
+    display: flex;
+    align-items: center;
+}
+
+#input-icon {
+    color: gray;
+    position: absolute;
+    padding: 5px;
+}
